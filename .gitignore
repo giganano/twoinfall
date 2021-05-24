@@ -1,0 +1,14 @@
+
+*.aux 
+*.bbl 
+*.blg 
+*.log 
+*.out 
+*.config 
+*.obj 
+*.vice/* 
+*.sublime-workspace 
+*.sublime-project 
+*/.ipynb_checkpoints/* 
+
+
