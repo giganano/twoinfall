@@ -14,8 +14,8 @@ import os
 class twoinfall(double_exponential): 
 
 	def __init__(self, radius, dt = 0.01, dr = 0.1): 
-		super().__init__(onset = 4, ratio = 0.2) 
-		self.first.timescale = 0.2 
+		super().__init__(onset = 4, ratio = 1) 
+		self.first.timescale = 1
 		self.second.timescale = 6 
 		# print("normalizing two-infall")
 		prefactor = normalize_ifrmode(self, gradient, radius, dt = dt, 
